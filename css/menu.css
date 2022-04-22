@@ -258,6 +258,9 @@ header .menu-contact{
         text-align: left;
         position: relative;
     }
+    header .bottom-header .navbar-light .navbar-nav .nav-item.show .nav-link{
+        color: ##FB1818;
+    }
     header .bottom-header .navbar-light .navbar-nav .nav-link.dropdown-toggle:after{
         content: "";
         background: url(../images/menu-arrow.png) no-repeat;
@@ -326,6 +329,9 @@ header .menu-contact{
         display: block;
         padding:40px 25px;
         margin: 0 -10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
     }
     header .menu-contact p, header .menu-contact p a{
         color: #fff;
