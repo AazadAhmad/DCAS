@@ -286,6 +286,8 @@ header .menu-contact{
     header .navbar-nav{
         display: block;
         padding: 20px 10px;
+        height: 50vh;
+        overflow: auto;
     }
     header .bottom-header .navbar-light .navbar-nav .nav-link.btn_solid{
         display: none;
@@ -327,7 +329,7 @@ header .menu-contact{
 
     header .menu-contact{
         display: block;
-        padding:40px 25px;
+        padding:30px 25px;
         margin: 0 -10px;
         position: absolute;
         width: 100%;
