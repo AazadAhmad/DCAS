@@ -876,7 +876,7 @@ footer .social-media li a{
      }
      
      a.btn_solid{
-         font-size: 16px;
+         font-size: 18px;
      }
      .home-slider .banner-text p{
          font-size: 50px;
@@ -891,26 +891,39 @@ footer .social-media li a{
          font-size: 16px;
      }
      .title h2 {
-         font-size: 40px;
+         font-size: 50px;
+     }
+     .our-gallery {
+        margin-top: 40px;
      }
      .portfolio-tab ul li{
          font-size: 25px;
      }
      .more-about-dcsa .item h4 {
-         font-size: 23px;
+         font-size: 26px;
      }
      .school-acheivements .title h2, .testimonials .title h2 {
-         font-size: 30px;
+         font-size: 36px;
+     }
+     .school-acheivements .acheivements-item {
+        padding: 0 0 0 105px;
+     }
+     .school-acheivements .acheivements-item img{
+         width: auto;
      }
      .testimonials-slider .item .title h2 {
-         font-size: 23px;
+         font-size: 26px;
      }
      .school-acheivements .acheivements-item p span {
-         font-size: 30px;
+         font-size: 36px;
      }
      .investing .btn_solid {
          font-size: 30px;
      }
+
+     .map .add {
+        max-width: 270px;
+    }
      footer .title h3 {
          font-size: 20px;
      }
@@ -926,6 +939,10 @@ footer .social-media li a{
      .bottom-footer p {
          font-size: 18px;
      }
+
+     .chat .btn_solid img {
+        width: auto;
+    }
      
  }
 
