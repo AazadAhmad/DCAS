@@ -328,6 +328,9 @@ img {
 .banner-box .box{
     position: relative;
 }
+.banner-box .box img{
+    width: 100%;
+}
 .banner-box .blue:before, 
 .banner-box .yellow:before,  
 .banner-box .green:before, 
@@ -875,6 +878,9 @@ footer .social-media li a{
      }
      .home-slider .banner-text p{
          font-size: 50px;
+     }
+     .banner-box{
+         margin-top: -140px;
      }
      .banner-box .box .caption h3 {
          font-size: 32px;
