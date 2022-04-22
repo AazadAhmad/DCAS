@@ -868,7 +868,9 @@ footer .social-media li a{
      .container {
          padding: 0 5%;
      }
- 
+     .section-padding{
+        padding: 110px 0;
+    }
      header .bottom-header .navbar-light .navbar-nav .nav-link{
          font-size: 16px;
      }
