@@ -180,6 +180,9 @@ img {
     font-size: 36px;
     margin-bottom: 15px;
 }
+.title p{
+    font-size: 19px
+}
 .title .line{
     background: #FB1818;
     border-radius: 2px;
@@ -893,6 +896,9 @@ footer .social-media li a{
      .title h2 {
          font-size: 50px;
      }
+     .title p{
+        font-size: 24px
+    }
      .our-gallery {
         margin-top: 40px;
      }
@@ -1036,6 +1042,9 @@ footer .social-media li a{
     }
     .title h2 {
         font-size: 20px;
+    }
+    .title p{
+        font-size: 17px
     }
     .title .line {
         margin: 15px 15px;
