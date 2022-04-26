@@ -101,7 +101,10 @@ $(document).ready(function () {
         responsiveClass: true,
         nav: false,
         navText: [" ", " "],
-        dots: true
+        dots: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 6000
     })
 
 
