@@ -127,6 +127,7 @@ header .dropdown-menu{
 header .dropdown-menu .dropdown-item{
     padding: 10px 15px;
     font-weight: 700;
+    font-size: 15px;
 }
 header .dropdown-menu .dropdown-item.active, 
 header .dropdown-menu .dropdown-item:hover{
