@@ -1,6 +1,6 @@
 /* header Start */
 .overlay-div{
-    position: relative;
+    /* position: relative; */
 }
 .overlay-div:after{
     content: "";
@@ -259,7 +259,7 @@ header .menu-contact{
         position: relative;
     }
     header .bottom-header .navbar-light .navbar-nav .nav-item.show .nav-link{
-        color: ##FB1818;
+        color: #FB1818;
     }
     header .bottom-header .navbar-light .navbar-nav .nav-link.dropdown-toggle:after{
         content: "";
@@ -310,6 +310,7 @@ header .menu-contact{
     header .dropdown-menu .dropdown-item{
         font-weight: 500;
         position: relative;
+        font-size: 14px;
     }
     header .dropdown-menu .dropdown-item.active, 
     header .dropdown-menu .dropdown-item:hover{
@@ -359,9 +360,9 @@ header .menu-contact{
 }
 
 @media only screen and (max-width:767px) {
-    header .top-header ul li.mr-4{
+    /* header .top-header ul li.mr-4{
         margin-right: 5px !important;
-    }
+    } */
     header .top-header ul li a{
         font-size: 13px;
     }

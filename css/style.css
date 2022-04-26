@@ -181,7 +181,7 @@ img {
     margin-bottom: 15px;
 }
 .title p{
-    font-size: 19px
+    font-size: 18px
 }
 .title .line{
     background: #FB1818;
@@ -428,6 +428,9 @@ img {
     color: #FB1818;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
+.about-us .title p{
+    font-size: 15px;
+}
 .about-slider{
     padding: 0 30px;
 }
@@ -439,7 +442,7 @@ img {
 
 /* Our Gallery */
 .our-gallery{
-    margin-top: 30px;
+    margin-top: 55px;
     background: #E4E7F0;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
@@ -533,7 +536,7 @@ img {
 
 /* More about DCAS */
 .more-about-dcsa{
-    margin-top: 40px;
+    margin-top: 55px;
     padding: 0 50px;
 }
 .more-about-dcsa .item img{
@@ -759,11 +762,11 @@ footer .title .line::before {
     width: 40px;
 }
 footer ul{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 footer ul li a{
     color: #fff;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 footer ul li a:hover{
     color: #FB1818;
@@ -845,8 +848,8 @@ footer .social-media li a{
 /* Chat start */
 .chat{
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 25px;
+    bottom: 25px;
     z-index: 9;
 }
 .chat .btn_solid{
@@ -856,7 +859,7 @@ footer .social-media li a{
 }
 .chat .btn_solid img{
     padding-right: 5px;
-    width: 30px;
+    width: 35px;
 }
 .chat .btn_solid:hover{
     color: #fff;
@@ -1047,9 +1050,10 @@ footer .social-media li a{
     }
     .title h2 {
         font-size: 20px;
+        margin-bottom: 10px;
     }
     .title p{
-        font-size: 17px
+        font-size: 15px
     }
     .title .line {
         margin: 15px 15px;
@@ -1136,6 +1140,7 @@ footer .social-media li a{
     }
     .about-us .title p{
         text-align: justify;
+        font-size: 14px;
     }
     .about-slider {
         padding: 0 10px;
@@ -1144,7 +1149,7 @@ footer .social-media li a{
         display: none;
     }
     .about-us .mobile-bg {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .about-us .mobile-bg::before {
         content: "";
@@ -1170,7 +1175,7 @@ footer .social-media li a{
         padding-top: 60px;
     }
     .our-gallery {
-        margin-top: 16px;
+        margin-top: 15px;
         background: transparent;
         box-shadow: none;
         padding: 0;
@@ -1202,7 +1207,7 @@ footer .social-media li a{
 
 
     .more-about-dcsa {
-        margin-top:30px;
+        margin-top:20px;
         padding: 0 30px;
     }
     .more-about-dcsa .owl-prev{
@@ -1328,7 +1333,10 @@ footer .social-media li a{
         /* font-size: 18px; */
         text-align: left;
     }
-
+    .chat{
+        bottom: 20px;
+        right: 20px;
+    }
     .chat .btn_solid{
         padding:6px 8px;
     }
@@ -1340,5 +1348,5 @@ footer .social-media li a{
 }
 
 @media only screen and (max-width:360px) {
-        
+    
 }
